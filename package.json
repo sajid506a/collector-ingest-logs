@@ -1,0 +1,17 @@
+{
+  "name": "logs-collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "node-cron": "^2.0.3",
+    "@aws-sdk/client-dynamodb": "^3.35.0",
+    "@aws-sdk/lib-dynamodb": "^3.35.0"
+  }
+}
